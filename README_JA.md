@@ -13,7 +13,7 @@
 [![HyperOS](https://img.shields.io/badge/ROM-HyperOS3-orange?style=flat-square)](https://hyperos.mi.com)
 [![Build](https://img.shields.io/badge/Build-Flutter-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 
-**[English](README_EN.md)** | **[简体中文](README.md)** | **日本語**
+**[English](README_EN.md)** | **[简体中文](README.md)** | **日本語** | **[Türkçe](README_TR.md)**
 
 </div>
 
@@ -96,6 +96,18 @@ Flutter がインストールされていることを確認後に以下を実行
 ```bash
 flutter build apk --target-platform=android-arm64
 ```
+
+---
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=1812z%2FHyperIsland&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ---
 

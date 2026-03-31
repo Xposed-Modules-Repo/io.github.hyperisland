@@ -7,6 +7,7 @@
 **为澎湃 OS3 打造的超级岛进度通知增强模块**
 
 [![GitHub Release](https://img.shields.io/github/v/release/1812z/HyperIsland?style=flat-square&logo=github&color=black)](https://github.com/1812z/HyperIsland/releases)
+![Downloads](https://img.shields.io/github/downloads/1812z/HyperIsland/total?style=flat-square)
 [![License](https://img.shields.io/github/license/1812z/HyperIsland?style=flat-square&color=orange)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android)](https://android.com)
 [![LSPosed](https://img.shields.io/badge/Framework-LSPosed-blueviolet?style=flat-square)](https://github.com/LSPosed/LSPosed)
@@ -14,7 +15,7 @@
 [![Build](https://img.shields.io/badge/Build-Flutter-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 
 
-**[English](README_EN.md)** | **简体中文** | **[日本語](README_JA.md)**
+**[English](README_EN.md)** | **简体中文** | **[日本語](README_JA.md)** | **[Türkçe](README_TR.md)**
 
 </div>
 
@@ -79,8 +80,20 @@
 2. 找到「**移除焦点通知白名单**」。
 3. 打开开关并重启作用域。
 
+
 ---
 
+## 模板说明
+
+| 模板       | 说明                                      |
+|----------|-----------------------------------------|
+| 通知超级岛    | 支持任意通知转为焦点通知+超级岛显示                      |
+| 通知超级岛-精简 | 自动去除通知中的"x条新消息"和重复字段，节约超级岛空间            |
+| 下载       | 自动识别下载状态并转为焦点通知+超级岛，岛左边显示状态，右边显示文件名和进度圈 |
+| 下载-Lite  | 同上，但超级岛只显示图标+进度圈                        |
+| AI 通知超级岛  | 超级岛左右交给AI精简，确保内容不会过长                        |
+
+---
 ## ⚠️ 注意事项
 
 | 事项 | 说明 |
@@ -99,6 +112,17 @@
 ```bash
 flutter build apk --target-platform=android-arm64
 ```
+---
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=1812z%2FHyperIsland&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ---
 
