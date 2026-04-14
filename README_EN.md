@@ -4,7 +4,7 @@
 
 # HyperIsland
 
-**Dynamic Island–style progress notifications for HyperOS 3, powered by LSPosed**
+**Dynamic Island–style notifications for HyperOS 3, powered by LSPosed**
 
 [![GitHub Release](https://img.shields.io/github/v/release/1812z/HyperIsland?style=flat-square&logo=github&color=black)](https://github.com/1812z/HyperIsland/releases)
 [![License](https://img.shields.io/github/license/1812z/HyperIsland?style=flat-square&color=orange)](LICENSE)
@@ -50,44 +50,27 @@ Configuration changes take effect **without restarting**. Only scope restarts ar
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🤖 AI Summary
+Supports OpenAI-compatible large models to intelligently condense notification content and extract key points.
+
+</td>
+<td width="50%">
+
+### 🍞 Toast Interception
+Intercepts annoying Toast notifications and converts them into Dynamic Island display for a cleaner, unified experience.
+
+</td>
+</tr>
 </table>
 
 ---
 
-## 📋 Setup Guide
+## 📖 Documentation
 
-### Step 1 — Activate the Module in LSPosed
-
-> ⚠️ This module requires the **LSPosed** framework. Your device must be rooted and LSPosed must be installed.
-
-1. Open **LSPosed Manager** and navigate to the **Modules** tab.
-2. Find **HyperIsland** and enable the toggle.
-3. In the module scope, check the recommended apps:
-    - **Download notifications**: check **Download Manager**
-    - **Universal adapter**: check **System UI**
-4. Save and tap the **restart button** in the top-right corner to restart the affected scope (or reboot your device) to activate the hook.
-
----
-
-### Step 2 — Enable Focus Notification Whitelist in HyperCeiler
-
-> 💡 Dynamic Island–style notifications require the "Focus Notification" permission granted through HyperCeiler.  
-> If you can't find the relevant option, please update HyperCeiler to the latest version.
-
-1. Open **HyperCeiler** and navigate to **System UI** or **Xiaomi Service Framework** settings.
-2. Find **"Remove Focus Notification Whitelist"**.
-3. Enable the toggle and restart the scope.
-
----
-
-## ⚠️ Important Notes
-
-| Item | Details |
-|------|---------|
-| Framework | Requires **LSPosed** and a **rooted** device |
-| Restart Timing | Restart scope after installing/updating apps; config changes generally support hot reload |
-| Notification Compatibility | Universal adapter only handles **standard Android notifications**; custom notification styles are not supported |
-| ROM Compatibility | Tested on **HyperOS 3**; other ROMs may have compatibility issues |
+> 📌 For full usage instructions, template descriptions, and configuration guides, please visit: **[hyperisland.1812z.top](https://hyperisland.1812z.top)**
 
 ---
 

@@ -52,56 +52,27 @@ Yapılandırma değişiklikleri **yeniden başlatmaya gerek kalmadan** anında g
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🤖 AI Ozeti
+OpenAI uyumlu protokole sahip buyuk modelleri destekler; bildirim icerigini akilli bicimde kisaltir ve temel bilgileri cikarir.
+
+</td>
+<td width="50%">
+
+### 🍞 Toast Engelleme
+Rahatsiz edici Toast bildirimlerini yakalar ve Super Ada gorunumune donusturur; daha temiz ve tutarli bir deneyim sunar.
+
+</td>
+</tr>
 </table>
 
 ---
 
-## 📋 Kullanım Talimatları
+## 📖 Dokümantasyon
 
-### Adım 1: LSPosed'da Modülü Etkinleştirin
-
-> ⚠️ Bu modül **LSPosed** çerçevesine dayanır. Cihazınızın Root erişimi olması ve LSPosed yüklü olması gerekir.
-
-1. **LSPosed** yöneticisini açın ve "Modüller" (Modules) listesine gidin.
-2. **HyperIsland** uygulamasını bulun ve anahtarı etkinleştirin.
-3. Modülün etki alanında (scope), önerilen uygulamaları işaretleyin:
-   - **İndirme Bildirimleri**: "İndirme Yöneticisi"ni (Download Manager) seçin
-   - **Genel Uyumluluk**: "Sistem Arayüzü"nü (System UI) seçin
-4. Kaydettikten sonra, Hook'un etkili olması için ilgili etki alanındaki uygulamaları yeniden başlatmak üzere **uygulamanın sağ üst köşesindeki yeniden başlat düğmesine** tıklayın (veya telefonunuzu doğrudan yeniden başlatın).
-
----
-
-### Adım 2: HyperCeiler'da Odak Bildirimi Beyaz Listesini Etkinleştirin
-
-> 💡 Süper Ada stili bildirimlerin düzgün görüntülenmesi için HyperCeiler'ın "Odak Bildirimi" (Focus Notification) izninden geçmesi gerekir.  
-> HyperCeiler sürümünüz çok eskiyse, ilgili ayarı bulamayabilirsiniz, lütfen sürümünüzü güncelleyin.
-
-1. **HyperCeiler**'ı açın ve "Sistem Arayüzü" (System UI) veya "Xiaomi Hizmet Çerçevesi" (Xiaomi Services Framework) ile ilgili ayarlara gidin.
-2. "**Odak Bildirimi Beyaz Listesini Kaldır**" (Remove Focus Notification Whitelist) seçeneğini bulun.
-3. Anahtarı açın ve etkili olması için ilgili etki alanını yeniden başlatın.
-
-
----
-
-## Şablon Açıklamaları
-
-| Şablon | Açıklama |
-|----------|-----------------------------------------|
-| Bildirim Süper Ada | Herhangi bir bildirimi Odak Bildirimi + Süper Ada ekranına dönüştürmeyi destekler |
-| Bildirim Süper Ada - Sade (Lite) | Süper Ada alanından tasarruf etmek için bildirimlerdeki "x yeni mesaj" ve yinelenen alanları otomatik olarak kaldırır |
-| İndirme | İndirme durumunu otomatik olarak tanır ve Odak Bildirimi + Süper Ada'ya dönüştürür. Adanın sol tarafında durum gösterilirken, sağ tarafında dosya adı ve ilerleme çemberi gösterilir |
-| İndirme - Sade (Lite) | Yukarıdaki ile aynı, ancak Süper Ada yalnızca simge + ilerleme çemberini gösterir |
-| AI Bildirim Süper Ada | Süper Ada'nın sol ve sağ kısımları sadeleştirme için yapay zekaya bırakılarak içeriğin çok uzun olmaması sağlanır |
-
----
-## ⚠️ Dikkat Edilmesi Gerekenler
-
-| Madde | Açıklama |
-|------|------|
-| Çerçeve Bağımlılığı | Bu modül **LSPosed** çerçevesini kullanır ve Root erişimli bir cihaz gerektirir |
-| Yeniden Başlatma Zamanı | Yeni bir uygulama yükledikten veya güncelledikten sonra etki alanını yeniden başlatmanız gerekir; yapılandırma değişiklikleri genellikle "hot reload" ile anında uygulanır |
-| Bildirim Uyumluluğu | Genel uyumluluk yalnızca **standart Android bildirimlerini** işler, özel bildirim stilleri desteklenmez |
-| ROM Uyumluluğu | Bu modül **HyperOS 3** ortamında test edilmiştir, diğer ROM'larda uyumluluk sorunları olabilir |
+> 📌 Kullanım talimatları, şablon açıklamaları ve yapılandırma kılavuzu için lütfen ziyaret edin: **[hyperisland.1812z.top](https://hyperisland.1812z.top)**
 
 ---
 
