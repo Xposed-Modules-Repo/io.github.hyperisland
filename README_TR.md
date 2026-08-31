@@ -4,15 +4,15 @@
 
 # HyperIsland
 
-**HyperOS 3 için tasarlanmış Süper Ada ilerleme bildirimi geliştirme modülü**
+**HyperOS 3/4 için tasarlanmış Süper Ada ilerleme bildirimi geliştirme modülü**
 
-[![GitHub Release](https://img.shields.io/github/v/release/1812z/HyperIsland?style=flat-square&logo=github&color=black)](https://github.com/1812z/HyperIsland/releases)
-![Downloads](https://img.shields.io/github/downloads/1812z/HyperIsland/total?style=flat-square)
-[![License](https://img.shields.io/github/license/1812z/HyperIsland?style=flat-square&color=orange)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.hyperisland?style=flat-square&logo=github&color=black)](https://github.com/Xposed-Modules-Repo/io.github.hyperisland/releases)
+![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.hyperisland/total?style=flat-square)
+[![License](https://img.shields.io/github/license/Xposed-Modules-Repo/io.github.hyperisland?style=flat-square&color=orange)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android)](https://android.com)
 [![LSPosed](https://img.shields.io/badge/Framework-LSPosed-blueviolet?style=flat-square)](https://github.com/LSPosed/LSPosed)
-[![HyperOS](https://img.shields.io/badge/ROM-HyperOS3-orange?style=flat-square)](https://hyperos.mi.com)
-[![Build](https://img.shields.io/badge/Build-Flutter-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
+[![HyperOS](https://img.shields.io/badge/ROM-HyperOS3%2F4-orange?style=flat-square)](https://hyperos.mi.com)
+[![Build](https://img.shields.io/badge/Build-Compose-7F52FF?style=flat-square&logo=kotlin)](https://developer.android.com/compose)
 
 
 **[English](README_EN.md)** | **[简体中文](README.md)** | **[日本語](README_JA.md)** | **Türkçe**
@@ -41,14 +41,14 @@ Herhangi bir uygulama tarafından gönderilen standart Android bildirimlerini en
 <tr>
 <td width="50%">
 
-### 🚫 Bildirim Kara Listesi
-Kara listedeki uygulamalar bildirim açılır pencereleri üretmez, yalnızca bir Süper Ada gösterir (tam ekran modunda durum çubuğu ile otomatik olarak gizlenir).
+### 🧊 Cam Malzemeler
+Gauss Bulanıklığı, Parlak Cam, Yumuşak Cam ve Sıvı Cam olmak üzere dört malzemeyi ve özelleştirilebilir parametreleri destekler.
 
 </td>
 <td width="50%">
 
-### 🔥 Hot Reload Desteği
-Yapılandırma değişiklikleri **yeniden başlatmaya gerek kalmadan** anında geçerli olur. Yeni bir yazılım yükledikten veya güncelledikten sonra yalnızca uygulamanın etki alanını (scope) yeniden başlatın.
+### 🏝️ Kalıcı Ada Desteği
+Apple'ın Dynamic Island'ına benzer kalıcı bir ada gösterir; otomatik gizleme ve kaçınma davranışını destekler.
 
 </td>
 </tr>
@@ -78,21 +78,21 @@ Rahatsiz edici Toast bildirimlerini yakalar ve Super Ada gorunumune donusturur; 
 
 ## 🔨 Derleme
 
-Flutter geliştirme ortamının kurulu olduğundan emin olun, ardından komutu çalıştırın:
+JDK 21 ve Android SDK'nın kurulu olduğundan emin olun, ardından komutu çalıştırın:
 
 ```bash
-flutter build apk --target-platform=android-arm64
+./android/gradlew -p android :app:assembleRelease
 ```
 
 ---
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=1812z%2FHyperIsland&type=date&legend=top-left">
+<a href="https://star-history.dera.page/#Xposed-Modules-Repo/io.github.hyperisland&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=1812z/HyperIsland&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=Xposed-Modules-Repo/io.github.hyperisland&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=Xposed-Modules-Repo/io.github.hyperisland&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=Xposed-Modules-Repo/io.github.hyperisland&type=date&legend=top-left" />
  </picture>
 </a>
 
@@ -106,6 +106,6 @@ Bu proje [MIT Lisansı](LICENSE) altında açık kaynak kodludur, Issue ve PR'la
 
 HyperOS kullanıcıları için ❤️ ile yapılmıştır
 
-[![Star History](https://img.shields.io/github/stars/1812z/HyperIsland?style=social)](https://github.com/1812z/HyperIsland)
+[![Star History](https://img.shields.io/github/stars/Xposed-Modules-Repo/io.github.hyperisland?style=social)](https://github.com/Xposed-Modules-Repo/io.github.hyperisland)
 
 </div>
